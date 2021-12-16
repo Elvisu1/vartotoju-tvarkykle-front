@@ -5,12 +5,15 @@ import Logo from '../../assets/images/logo.png'
 
 function Navbar(){
     return(
-        <div className={css.container}>
-            <NavLink to={'/'}><img className={css.img} src={Logo}/></NavLink>
-            <NavLink className={css.link} to={'/users'}>VARTOTOJAI</NavLink>
-            <NavLink className={css.link} to={'/users-add'}>PRIDĖTI VARTOTOJĄ</NavLink>
 
-        </div>
+            <div className={css.container}>
+                <NavLink to={'/'}><img className={css.img} src={Logo}/></NavLink>
+                <NavLink className={css.link} to={'/users'}>VARTOTOJAI</NavLink>
+                <NavLink className={css.link} to={'/users-add'}>PRIDĖTI VARTOTOJĄ</NavLink>
+
+            </div>
+
+
     )
 }
 

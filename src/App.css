@@ -1,8 +1,14 @@
-.App {
+.container{
+  height: 1040px;
   background-color: #22a7cc;
+}
+.App {
+
+
   text-align: center;
 }
 *{
+  /*background-color: #22a7cc;*/
   margin: 0;
   padding: 0;
   box-sizing: border-box;
