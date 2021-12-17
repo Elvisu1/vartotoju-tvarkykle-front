@@ -10,7 +10,7 @@ function AddUserPage(){
     const [password, setPassword]=useState('')
 
     const submitUser = () =>{
-        Axios.post('http://localhost:5000/addUser', {
+        Axios.post('http://localhost:5000/add-user', {
             name:name,
             age:age,
             email:email,

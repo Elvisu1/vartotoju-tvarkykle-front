@@ -19,9 +19,10 @@
     outline-color: #2994b2;
     border-radius: 10px;
     border: 3px solid rgba(206, 201, 201, 0.81);
-    width: 400px;
+    width: 300px;
     height: 60px;
     margin: 10px;
+
 }
 
 .form button{

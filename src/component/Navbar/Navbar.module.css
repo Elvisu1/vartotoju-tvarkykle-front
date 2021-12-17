@@ -3,15 +3,19 @@
     border-radius: 10px;
     align-items: center;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 20%;
     margin-right: 20%;
     margin-bottom: 10px;
     background-color: #ffffff;
-    padding: 30px;
+    padding: 10px;
 
 
 
+}
+.container div{
+    display: flex;
+    flex-wrap: wrap;
 }
 .img{
     background-color: white;
@@ -25,6 +29,7 @@
     transform: scale(1.1);
 }
 .link{
+
     border: 4px solid #2994b2;
     border-radius: 10px;
     padding: 10px;
@@ -33,6 +38,9 @@
     font-size: larger;
     color: #2994b2;
     text-decoration-line: none;
+}
+.link i {
+    font-size: larger;
 }
 .link:hover{
     color: #ffffff;
