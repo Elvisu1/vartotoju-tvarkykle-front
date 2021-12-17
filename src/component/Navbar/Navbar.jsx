@@ -8,8 +8,11 @@ function Navbar(){
 
             <div className={css.container}>
                 <NavLink to={'/'}><img className={css.img} src={Logo}/></NavLink>
-                <NavLink className={css.link} to={'/users'}>VARTOTOJAI</NavLink>
-                <NavLink className={css.link} to={'/users-add'}>PRIDĖTI VARTOTOJĄ</NavLink>
+                <div>
+                    <NavLink className={css.link} to={'/users'}>VARTOTOJAI</NavLink>
+                    <NavLink className={css.link} to={'/users-add'}><i className="fa fa-plus-circle" aria-hidden="true"></i> PRIDĖTI VARTOTOJĄ</NavLink>
+                </div>
+
 
             </div>
 
