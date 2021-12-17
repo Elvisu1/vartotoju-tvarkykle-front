@@ -1,5 +1,5 @@
 import css from "./HomePage.module.css";
-import User from '../../assets/images/users7.png'
+import User from '../../assets/images/user3.png'
 
 function HomePage(){
     return(
