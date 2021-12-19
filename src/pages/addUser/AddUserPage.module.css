@@ -23,6 +23,11 @@
     height: 60px;
     margin: 10px;
 
+
+}
+.form input::placeholder{
+    color: #c5c5c5;
+    font-size: larger;
 }
 
 .form button{
@@ -39,4 +44,12 @@
 .form button:hover{
     background-color: white;
     color: #2994b2;
+}
+.text{
+    margin-right: 30%;
+    margin-left: 30%;
+    font-size: x-large;
+
+    margin-top: 5%;
+    color: #78b978;
 }

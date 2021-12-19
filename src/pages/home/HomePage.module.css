@@ -1,6 +1,13 @@
+.container{
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #ffffff;
+    height: 450px;
+    border-radius: 10px;
+}
 .img{
-    width: 600px;
+    width: 500px;
     height: auto;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 5%;
+    margin-left: 5%;
 }

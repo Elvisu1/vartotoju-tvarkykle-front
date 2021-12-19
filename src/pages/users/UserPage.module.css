@@ -2,7 +2,7 @@
     margin-left: 20%;
     margin-right: 20%;
     background-color: white;
-    height: 700px;
+    height: 900px;
     border-radius: 10px;
 
 }
@@ -12,7 +12,11 @@
 }
 
 .userCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
     text-align: start;
+    align-items: center;
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 1%;
@@ -21,15 +25,70 @@
     border: 2px solid #22a7cc;
     box-shadow: 2px 2px #b4b4b4;
 }
-.deleteBtn{
-    color: white;
-    background-color: red;
+.table{
+    display: flex;
+    margin-left: 10%;
+    margin-right: 10%;
 }
-.updateBtn{
+.table h3{
+    margin-right: 15px;
+    margin-bottom: 15px;
+    color: rgba(0, 0, 0, 0.6);
+}
+.btnDiv{
+    display: flex;
+}
+.deleteBtn{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 5px;
     color: white;
-    background-color: #55c44d;
+    background-color: #d57a7a;
+}
+
+.updateBtn{
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 2px;
+    margin: 5px;
+    color: white;
+    background-color: #99c797;
 }
 .userCard h3{
     color: rgba(128, 128, 128, 0.69);
+}
+.text{
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #ffffff;
+    font-size: x-large;
+    color: #d57a7a;
+}
+.updateText{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-radius: 10px;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
+    background-color: #ffffff;
+    font-size: x-large;
+    color: #99c797;
+}
+.input{
+    outline-color: #2994b2;
+    border-radius: 10px;
+    border: 3px solid rgba(206, 201, 201, 0.81);
+    width: 300px;
+    height: 60px;
+    margin: 10px;
+
+
 }
 

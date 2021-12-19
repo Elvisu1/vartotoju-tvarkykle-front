@@ -1,6 +1,6 @@
 import Navbar from "../../component/Navbar/Navbar";
 import css from './AddUserPage.module.css'
-import {useState, useEffect} from "react";
+import {useState} from "react";
 import Axios from "axios";
 
 function AddUserPage(){
@@ -8,8 +8,11 @@ function AddUserPage(){
     const [age, setAge]=useState('')
     const [email, setEmail]=useState('')
     const [password, setPassword]=useState('')
+    const [submitted, setSubmitted ] = useState(false)
+    const submitUser = (event) =>{
+        event.preventDefault();
+        setSubmitted(true);
 
-    const submitUser = () =>{
         Axios.post('http://localhost:5000/add-user', {
             name:name,
             age:age,
@@ -19,6 +22,7 @@ function AddUserPage(){
             alert('success insert')
         })
     }
+
     return(
         <div>
             <Navbar/>
@@ -36,7 +40,12 @@ function AddUserPage(){
                         setPassword(e.target.value)}/>
 
                     <button onClick={submitUser}>PRIDĖTI</button>
+
+
                 </form>
+                {submitted ? <div className={css.text}>
+                    <h5>Vartotojas sukurtas</h5>
+                </div> : null}
 
             </div>
         </div>
