@@ -46,10 +46,13 @@
     color: #2994b2;
 }
 .text{
-    margin-right: 30%;
-    margin-left: 30%;
+    border-radius: 10px;
+    background-color: white;
+    margin-right: 20%;
+    margin-left: 20%;
     font-size: x-large;
+    padding: 5px;
 
-    margin-top: 5%;
+    margin-top: 1%;
     color: #78b978;
 }

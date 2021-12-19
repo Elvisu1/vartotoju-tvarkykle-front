@@ -43,11 +43,12 @@ function AddUserPage(){
 
 
                 </form>
-                {submitted ? <div className={css.text}>
-                    <h5>Vartotojas sukurtas</h5>
-                </div> : null}
+
 
             </div>
+            {submitted ? <div className={css.text}>
+                <h5>Vartotojas sukurtas</h5>
+            </div> : null}
         </div>
     )
 }
