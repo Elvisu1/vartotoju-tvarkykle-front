@@ -55,9 +55,9 @@ function AddUserPage(){
 
 
             </div>
-            {/*{submitted ? <div className={css.text}>*/}
-            {/*    <h5>Vartotojas sukurtas</h5>*/}
-            {/*</div> : null}*/}
+            {submitted ? <div className={css.text}>
+                <h5>Vartotojas sukurtas</h5>
+            </div> : null}
         </div>
     )
 }
